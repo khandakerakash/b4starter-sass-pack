@@ -1,0 +1,26 @@
+// Variables
+$bg-color: #F5F5F5;
+
+body {
+  background-color: $bg-color;
+}
+
+.content {
+  margin: 2rem auto;
+
+  color: #6c757d;
+
+  .display-4 {
+
+    i {
+      color: #8454CC;
+    }
+  }
+
+  .lead {
+
+    span {
+      color: #8454CC;
+    }
+  }
+}
