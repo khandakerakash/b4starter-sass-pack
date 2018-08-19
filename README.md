@@ -19,3 +19,5 @@ yarn start
 ```
 
 Files are compiled into /src
+
+A Starter project of [Khandaker Akash](http://khandakerakash.xyz/).

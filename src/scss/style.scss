@@ -1,26 +1,18 @@
-// Variables
-$bg-color: #F5F5F5;
+//ABSTRACTS
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
 
-body {
-  background-color: $bg-color;
-}
+//BASE
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
 
-.content {
-  margin: 2rem auto;
+//COMPONENTS
 
-  color: #6c757d;
 
-  .display-4 {
+//LAYOUT
 
-    i {
-      color: #8454CC;
-    }
-  }
 
-  .lead {
-
-    span {
-      color: #8454CC;
-    }
-  }
-}
+//PAGES
